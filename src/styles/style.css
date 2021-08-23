@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+div.verificationCase {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(140, 160, 180);
+  font-family: "Poppins", sans-serif;
+}
+
+div.verificationCase .title {
+  width: 100%;
+  min-height: 10vh;
+}
+
+div.verificationCase .title h1 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 10vh;
+}
+
+div.verificationCase main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 90vh;
+  background-color: rgb(140, 160, 180);
+}
+
+main div.serviceAndRepair {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+}
+
+main div.serviceAndRepair h3 {
+  text-align: center;
+  padding: 4px 0;
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport {
+  display: flex;
+  width: 100%;
+  height: 240px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport .serviceFullname {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 100%;
+  border-right: 2px solid black;
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport .serviceFullname h2 {
+  margin-bottom: 20px;
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport .techInfo {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport .techInfo .techWrapper {
+  height: 100%;
+  display: flex;
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport .techInfo .techWrapper .infoOne,
+div.serviceAndRepair
+  .oneServiceAndRepairReport
+  .techInfo
+  .techWrapper
+  .infoTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 20%;
+  height: 100%;
+}
+
+div.serviceAndRepair
+  .oneServiceAndRepairReport
+  .techInfo
+  .techWrapper
+  .infoOne
+  p,
+div.serviceAndRepair
+  .oneServiceAndRepairReport
+  .techInfo
+  .techWrapper
+  .infoTwo
+  p {
+  font-weight: bold;
+}
+
+div.serviceAndRepair
+  .oneServiceAndRepairReport
+  .techInfo
+  .techWrapper
+  .infoOne
+  p
+  span,
+div.serviceAndRepair
+  .oneServiceAndRepairReport
+  .techInfo
+  .techWrapper
+  .infoTwo
+  p
+  span {
+  font-weight: normal;
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport .techInfo h2 {
+  text-align: center;
+}
+
+div.serviceAndRepair
+  .oneServiceAndRepairReport
+  .techInfo
+  .techWrapper
+  .vinInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15%;
+  height: 100%;
+}
+
+div.serviceAndRepair
+  .oneServiceAndRepairReport
+  .techInfo
+  .techWrapper
+  .vinInfo
+  p {
+  font-weight: bold;
+}
+
+div.serviceAndRepair
+  .oneServiceAndRepairReport
+  .techInfo
+  .techWrapper
+  .serviceDesc {
+  width: 45%;
+  overflow: hidden;
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport .serviceButtons {
+  width: 10%;
+  height: 100%;
+  box-sizing: border-box;
+  border-left: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport .serviceButtons button {
+  width: 100%;
+  height: 50%;
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport .serviceButtons .sendService {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+div.serviceAndRepair
+  .oneServiceAndRepairReport
+  .serviceButtons
+  .sendService:hover {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+div.serviceAndRepair .oneServiceAndRepairReport .serviceButtons .deleteService {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+div.serviceAndRepair
+  .oneServiceAndRepairReport
+  .serviceButtons
+  .deleteService:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+main .fleetReport {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid black;
+}
+
+main .titleFleetReport {
+  text-align: center;
+  padding: 4px 0;
+}
+
+main .fleetReport .imgSection {
+  width: 400px;
+  height: 300px;
+}
+
+main .fleetReport .fleetInfo {
+  width: calc(100% - 600px);
+}
+
+main .fleetReport .fleetInfo h2 {
+  height: 20%;
+  text-align: center;
+}
+
+main .fleetReport .fleetInfo .fleetWrapper {
+  height: 80%;
+  display: flex;
+}
+
+main .fleetReport .fleetInfo .fleetWrapper .fleetOne,
+main .fleetReport .fleetInfo .fleetWrapper .fleetTwo {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+
+main .fleetReport .fleetInfo .fleetWrapper .fleetOne p {
+  font-weight: bold;
+}
+
+main .fleetReport .fleetInfo .fleetWrapper .fleetOne p span {
+  font-weight: normal;
+}
+main .fleetReport .fleetInfo .fleetWrapper .fleetTwo p {
+  font-weight: bold;
+}
+
+main .fleetReport .fleetInfo .fleetWrapper .fleetTwo p span {
+  font-weight: normal;
+}
+
+main .fleetReport .fleetInfo .fleetWrapper .fleetRentCosts {
+  width: 20%;
+}
+main .fleetReport .fleetInfo .fleetWrapper .fleetRentCosts div {
+  height: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+main .fleetReport .fleetInfo .fleetWrapper .fleetRentCosts div p {
+  font-size: 18px;
+}
+main .fleetReport .fleetInfo .fleetWrapper .fleetRentCosts div p:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+main .fleetReport .fleetInfo .fleetWrapper .fleetDescription {
+  width: 40%;
+  height: 100%;
+  word-break: break-all;
+}
+
+main .fleetReport .fleetButtons {
+  height: 100%;
+  border-left: 2px solid black;
+}
+
+main .fleetReport .fleetButtons button {
+  width: 100%;
+  height: 50%;
+}
+
+main .fleetReport .fleetButtons button.addToFleet {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+main .fleetReport .fleetButtons button.addToFleet:hover {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+main .fleetReport .fleetButtons button.doNotAddToFleet {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+main .fleetReport .fleetButtons button.doNotAddToFleet:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+main .issueReport {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 200px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+main .issueReport .issueProblem {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -30px;
+}
+
+main .issueReport .oneIssueReport {
+  height: 100%;
+  display: flex;
+}
+
+main .issueReport .oneIssueReport .issueInfo {
+  width: 30%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+main .issueReport .oneIssueReport .issueInfo p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main .issueReport .oneIssueReport .issueInfo p span {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+main .issueReport .oneIssueReport .issueDescription {
+  word-break: break-all;
+  width: 55%;
+}
+
+main .issueReport .oneIssueReport .issueButtons {
+  border-left: 2px solid black;
+  width: 15%;
+}
+
+main .issueReport .oneIssueReport .issueButtons button {
+  width: 100%;
+  height: 50%;
+}
+
+main .issueReport .oneIssueReport .issueButtons .sendIssueToManager {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+main .issueReport .oneIssueReport .issueButtons .sendIssueToManager:hover {
+  background-color: rgba(0, 0, 255, 0.2);
+}
+
+main .issueReport .oneIssueReport .issueButtons .deleteIssue {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+main .issueReport .oneIssueReport .issueButtons .deleteIssue:hover {
+  background-color: rgba(255, 0, 0, 0.2);
+}
