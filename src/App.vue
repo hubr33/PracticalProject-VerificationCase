@@ -4,7 +4,7 @@
       <h1>Weryfikacja spraw</h1>
     </div>
     <main>
-      <div class="serviceAndRepair">
+      <div class="serviceAndRepair" v-if="serviceAndRepairVisible">
         <h3>Naprawa i serwis aut</h3>
         <div class="oneServiceAndRepairReport">
           <div class="serviceFullname">
@@ -43,8 +43,9 @@
           </div>
         </div>
       </div>
-      <h3 class="titleFleetReport">Zgłoszenie o nowym aucie we flocie</h3>
-      <div class="fleetReport">
+
+      <div class="fleetReport" v-if="newCarVisible">
+        <h3 class="titleFleetReport">Zgłoszenie o nowym aucie we flocie</h3>
         <div class="imgSection">
           <img
             src="https://lodz.premiumarena.pl/assets/samochodydemo/BMW-320-xDrive.jpg"
@@ -96,7 +97,7 @@
           <button class="doNotAddToFleet">Usuń zgłoszenie</button>
         </div>
       </div>
-      <div class="issueReport">
+      <div class="issueReport" v-if="issueVisible">
         <h3 class="issueProblem">Zgłoszenie problemu</h3>
         <div class="oneIssueReport">
           <div class="issueInfo">
@@ -127,7 +128,11 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      serviceAndRepairVisible: false,
+      newCarVisible: false,
+      issueVisible: true,
+    };
   },
 };
 </script>
