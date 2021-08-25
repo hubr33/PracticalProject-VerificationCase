@@ -212,8 +212,9 @@ main .titleFleetReport {
 }
 
 main .fleetReport .imgSection {
-  width: 400px;
-  height: 300px;
+  overflow: hidden;
+  width: 396px;
+  height: 296px;
 }
 
 main .fleetReport .fleetInfo {
@@ -307,6 +308,8 @@ main .issueReport {
   height: 300px;
   background-color: rgba(0, 0, 0, 0.2);
   margin-bottom: 40px;
+  margin-top: 100px;
+  overflow: hidden;
   box-sizing: border-box;
   border: 2px solid black;
 }
@@ -378,6 +381,7 @@ main .issueReport .oneIssueReport .issueButtons .deleteIssue:hover {
   div.serviceAndRepair .oneServiceAndRepairReport div.serviceFullname {
     width: 100%;
     height: 200px;
+    border: none;
     border-bottom: 2px solid black;
   }
 
@@ -473,6 +477,9 @@ main .issueReport .oneIssueReport .issueButtons .deleteIssue:hover {
   main .fleetReport .fleetInfo h2 {
     height: 60px;
   }
+  main .fleetReport .fleetButtons {
+    border: none;
+  }
   main .fleetReport .fleetInfo .fleetWrapper {
     flex-direction: column;
   }
@@ -507,6 +514,9 @@ main .issueReport .oneIssueReport .issueButtons .deleteIssue:hover {
   main .issueReport .oneIssueReport .issueInfo {
     width: 100%;
     height: 300px;
+  }
+  main .issueReport .oneIssueReport .issueButtons {
+    border: none;
   }
   main .issueReport .oneIssueReport .issueInfo p {
     padding-left: 20px;

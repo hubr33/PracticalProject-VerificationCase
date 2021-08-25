@@ -126,8 +126,8 @@
 export default {
   data() {
     return {
-      serviceAndRepairVisible: false,
-      newCarVisible: false,
+      serviceAndRepairVisible: true,
+      newCarVisible: true,
       issueVisible: true,
     };
   },
