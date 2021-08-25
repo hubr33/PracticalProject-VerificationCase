@@ -5,7 +5,6 @@
     </div>
     <main>
       <div class="serviceAndRepair" v-if="serviceAndRepairVisible">
-        <h3>Naprawa i serwis aut</h3>
         <div class="oneServiceAndRepairReport">
           <div class="serviceFullname">
             <h2>Zgłaszający</h2>
@@ -45,7 +44,6 @@
       </div>
 
       <div class="fleetReport" v-if="newCarVisible">
-        <h3 class="titleFleetReport">Zgłoszenie o nowym aucie we flocie</h3>
         <div class="imgSection">
           <img
             src="https://lodz.premiumarena.pl/assets/samochodydemo/BMW-320-xDrive.jpg"
@@ -98,7 +96,6 @@
         </div>
       </div>
       <div class="issueReport" v-if="issueVisible">
-        <h3 class="issueProblem">Zgłoszenie problemu</h3>
         <div class="oneIssueReport">
           <div class="issueInfo">
             <p>Tytuł zgłoszenia: <span>Niedziałająca kasa</span></p>
